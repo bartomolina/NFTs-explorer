@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useState } from 'react'
 import { Alchemy, Network } from 'alchemy-sdk'
-import { NFTCard } from './components/nftCard'
+import { NFTCard } from '../components/nftCard'
 
 const config = {
   apiKey: process.env.NEXT_PUBLIC_ALCHEMY_KEY,
